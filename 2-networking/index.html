@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-T5jhQKMh96HMkXwqVMSjF3CmLcL1nT9//tCqu9By5XSdj7CwR0r+F3LTzUdfkkQf" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/flatly/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T5jhQKMh96HMkXwqVMSjF3CmLcL1nT9//tCqu9By5XSdj7CwR0r+F3LTzUdfkkQf"
+      crossorigin="anonymous"
+    />
+    <style>
+      #users .media {
+        margin: 1.25rem 0;
+        border: 1px solid transparent;
+        padding: 1rem;
+        transition: all 0.2s ease-in-out;
+        border-radius: 0.5rem;
+        max-width: 350px;
+      }
+      #users .media:hover {
+        background-color: #f1f1f14d;
+        cursor: pointer;
+      }
+    </style>
     <title>Networking</title>
-</head>
-<body>
-    <section class="container">
-        
+  </head>
+  <body>
+    <section class="container mt-5 ">
+      <div class="row">
+        <div style="margin:auto;">
+          <h1>Our Awesome Users</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div id="users" class="d-flex" style="flex-wrap: wrap;">
+          <!-- Users are added here dynamically -->
+        </div>
+      </div>
+      <div class="row" id="loader">
+        <div class="col d-flex justify-content-center">
+          <img src="loader.svg" width="102px" />
+        </div>
+      </div>
     </section>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
