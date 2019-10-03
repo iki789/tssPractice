@@ -13,13 +13,77 @@
     <title>Handling Forms</title>
   </head>
   <body>
-    <section class="container mt-5 ">
+    <section class="container mt-5" style="margin: auto;max-width: 500px">
       <div class="row">
         <div class="col">
-          <div class="margin: auto;">
-            
+          <div>
+            <form>
+              <h1>Create New Post</h1>
+              <div class="form-group">
+                <label for="title"></label>
+                <input
+                  id="title"
+                  class="form-control"
+                  name="title"
+                  placeholder="joe@gmail.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="body"></label>
+                <textarea
+                  id="password"
+                  class="form-control"
+                  name="body"
+                  placeholder="Write your story..."
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-sm btn-primary">Register</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col">
+          <code
+            id="display-response"
+            class="alert alert-info"
+            style="display: none; font-size: 1.25rem;"
+          ></code>
+        </div>
+      </div>
+    </section>
+    <script>
+      function makePostRequest() {
+        const endpoint = "https://jsonplaceholder.typicode.com/posts";
+        const userId = 1;
+
+        // TODO
+        // Submit form to above endpoint using fetch API
+        // Disable Register button after request
+
+        // Hint
+        // Your POST data should look like
+        // { title: Form Value, body: Form Value, userId: 1 }
+
+        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        // !!! Be sure this function returns a fetch Promise !!!
+        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      }
+
+      document.forms[0].addEventListener("submit", function(e) {
+        e.preventDefault();
+        makePostRequest()
+          .then(res => res.json())
+          .then(data => {
+            document.getElementById(
+              "display-response"
+            ).innerHTML = JSON.stringify(data);
+            document.getElementById("display-response").style.display = "block";
+          });
+        return false;
+      });
+    </script>
   </body>
 </html>
