@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/flatly/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T5jhQKMh96HMkXwqVMSjF3CmLcL1nT9//tCqu9By5XSdj7CwR0r+F3LTzUdfkkQf"
+      crossorigin="anonymous"
+    />
+    <title>Handling Forms</title>
+  </head>
+  <body>
+    <section class="container mt-5" style="margin: auto;max-width: 500px">
+      <div class="row">
+        <div class="col">
+          <div>
+            <form>
+              <h1>Create New Post</h1>
+              <code
+                id="display-error"
+                class="alert alert-danger text-center"
+                style="display: block; font-size: 1.25rem;"
+              >
+                Network Error!
+              </code>
+              <div class="form-group">
+                <label for="title"></label>
+                <input
+                  id="title"
+                  class="form-control"
+                  name="title"
+                  placeholder="joe@gmail.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="body"></label>
+                <textarea
+                  id="password"
+                  class="form-control"
+                  name="body"
+                  placeholder="Write your story..."
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-sm btn-primary">Register</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.forms[0].addEventListener("submit", function(e) {
+        e.preventDefault();
+        const endpoint = "https://jsonplaceholder.typicode.com/invalid/path";
+
+        // TODO
+        // Handle request error
+        // Make a POST request to the above endpoint using fetch
+        // The request will fail and return a 404
+        // *catch* the error and show #display-error element
+
+        return false;
+      });
+    </script>
+  </body>
+</html>
