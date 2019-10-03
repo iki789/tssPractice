@@ -1,0 +1,194 @@
+{
+  "0": {
+    "breeds": [],
+    "height": 3000,
+    "id": "1n1",
+    "url": "https://cdn2.thecatapi.com/images/1n1.jpg",
+    "width": 4000
+  },
+  "1": {
+    "breeds": [],
+    "height": 743,
+    "id": "287",
+    "url": "https://cdn2.thecatapi.com/images/287.jpg",
+    "width": 535
+  },
+  "2": {
+    "breeds": [],
+    "height": 240,
+    "id": "2pb",
+    "url": "https://cdn2.thecatapi.com/images/2pb.gif",
+    "width": 320
+  },
+  "3": {
+    "breeds": [],
+    "height": 500,
+    "id": "9uc",
+    "url": "https://cdn2.thecatapi.com/images/9uc.jpg",
+    "width": 500
+  },
+  "4": {
+    "breeds": [],
+    "height": 667,
+    "id": "9v9",
+    "url": "https://cdn2.thecatapi.com/images/9v9.jpg",
+    "width": 500
+  },
+  "5": {
+    "breeds": [],
+    "height": 960,
+    "id": "a1c",
+    "url": "https://cdn2.thecatapi.com/images/a1c.jpg",
+    "width": 720
+  },
+  "6": {
+    "breeds": [],
+    "height": 427,
+    "id": "ahi",
+    "url": "https://cdn2.thecatapi.com/images/ahi.jpg",
+    "width": 640
+  },
+  "7": {
+    "breeds": [],
+    "height": 644,
+    "id": "b3a",
+    "url": "https://cdn2.thecatapi.com/images/b3a.jpg",
+    "width": 428
+  },
+  "8": {
+    "breeds": [],
+    "height": 338,
+    "id": "bis",
+    "url": "https://cdn2.thecatapi.com/images/bis.jpg",
+    "width": 500
+  },
+  "9": {
+    "breeds": [],
+    "height": 780,
+    "id": "c1o",
+    "url": "https://cdn2.thecatapi.com/images/c1o.jpg",
+    "width": 555
+  },
+  "10": {
+    "breeds": [],
+    "height": 480,
+    "id": "cf9",
+    "url": "https://cdn2.thecatapi.com/images/cf9.jpg",
+    "width": 640
+  },
+  "11": {
+    "breeds": [],
+    "height": 2848,
+    "id": "cmq",
+    "url": "https://cdn2.thecatapi.com/images/cmq.jpg",
+    "width": 3761
+  },
+  "12": {
+    "breeds": [],
+    "height": 225,
+    "id": "dc1",
+    "url": "https://cdn2.thecatapi.com/images/dc1.gif",
+    "width": 300
+  },
+  "13": {
+    "breeds": [],
+    "height": 768,
+    "id": "dmb",
+    "url": "https://cdn2.thecatapi.com/images/dmb.jpg",
+    "width": 644
+  },
+  "14": {
+    "breeds": [],
+    "height": 443,
+    "id": "ei1",
+    "url": "https://cdn2.thecatapi.com/images/ei1.jpg",
+    "width": 608
+  },
+  "15": {
+    "breeds": [],
+    "categories": [
+      {
+        "id": 5,
+        "name": "boxes"
+      }
+    ],
+    "height": 1280,
+    "id": "MTQ5NTAyMA",
+    "url": "https://cdn2.thecatapi.com/images/MTQ5NTAyMA.jpg",
+    "width": 960
+  },
+  "16": {
+    "breeds": [],
+    "height": 1600,
+    "id": "MTc4NDQ2Mw",
+    "url": "https://cdn2.thecatapi.com/images/MTc4NDQ2Mw.jpg",
+    "width": 1316
+  },
+  "17": {
+    "breed_ids": null,
+    "breeds": [],
+    "created_at": "2018-11-25T06:34:46.000Z",
+    "height": 1585,
+    "id": "Sejb3lnzz",
+    "original_filename": "ed9214e.jpg",
+    "sub_id": "demo-28ba39",
+    "url": "https://cdn2.thecatapi.com/images/Sejb3lnzz.jpg",
+    "width": 1268
+  },
+  "18": {
+    "breeds": [
+      {
+        "adaptability": 5,
+        "affection_level": 5,
+        "alt_names": "Shepherd Cat",
+        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/SelkirkRex.aspx",
+        "child_friendly": 4,
+        "country_code": "US",
+        "country_codes": "US",
+        "description": "The Selkirk Rex is an incredibly patient, loving, and tolerant breed. The Selkirk also has a silly side and is sometimes described as clownish. She loves being a lap cat and will be happy to chat with you in a quiet voice if you talk to her. ",
+        "dog_friendly": 5,
+        "energy_level": 3,
+        "experimental": 0,
+        "grooming": 2,
+        "hairless": 0,
+        "health_issues": 4,
+        "hypoallergenic": 1,
+        "id": "srex",
+        "indoor": 0,
+        "intelligence": 3,
+        "lap": 1,
+        "life_span": "14 - 15",
+        "name": "Selkirk Rex",
+        "natural": 0,
+        "origin": "United States",
+        "rare": 0,
+        "rex": 1,
+        "shedding_level": 1,
+        "short_legs": 0,
+        "social_needs": 3,
+        "stranger_friendly": 3,
+        "suppressed_tail": 0,
+        "temperament": "Active, Affectionate, Dependent, Gentle, Patient, Playful, Quiet, Social",
+        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/selkirk-rex",
+        "vetstreet_url": "http://www.vetstreet.com/cats/selkirk-rex",
+        "vocalisation": 3,
+        "weight": {
+          "imperial": "6 - 16",
+          "metric": "3 - 7"
+        },
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Selkirk_Rex"
+      }
+    ],
+    "height": 902,
+    "id": "II9dOZmrw",
+    "url": "https://cdn2.thecatapi.com/images/II9dOZmrw.jpg",
+    "width": 1920
+  },
+  "19": {
+    "breeds": [],
+    "height": 1280,
+    "id": "PfA5hN4En",
+    "url": "https://cdn2.thecatapi.com/images/PfA5hN4En.jpg",
+    "width": 1148
+  }
+}
